@@ -1,0 +1,197 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(180deg,#eaf5ff,#fdfdfd);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+}
+
+.app{
+
+    width:90%;
+    max-width:430px;
+    
+    margin: 150px auto;
+    background:white;
+
+    border-radius:25px;
+
+    padding:120px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    text-align:center;
+}
+
+h1{
+
+    font-size:34px;
+
+    margin-bottom:10px;
+}
+
+.intro{
+
+    color:#666;
+
+    line-height:1.6;
+
+    margin-bottom:30px;
+}
+
+button{
+
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#ff5b7f;
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 20px rgba(255,91,127,.4);
+}
+
+select,
+input{
+
+    width:100%;
+
+    padding:14px;
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    margin-top:8px;
+
+    margin-bottom:20px;
+
+    font-size:16px;
+
+    box-sizing:border-box;
+}
+
+label{
+
+    font-weight:bold;
+}
+
+#planner,
+#loading,
+#result{
+
+    margin-top:20px;
+    text-align:center;
+
+}
+
+#planCard{
+
+    background:#f8fbff;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:left;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+#loading{
+
+    margin-top:30px;
+
+    text-align:center;
+
+}
+
+#loading h2{
+
+    color:#ff5b7f;
+
+}
+
+#loadingText{
+
+    font-size:18px;
+
+    margin-top:20px;
+
+    font-weight:bold;
+
+}
+
+.resultTitle{
+
+    font-size:26px;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+    color:#ff5b7f;
+
+}
+
+
+.infoCard{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    margin-bottom:18px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    text-align:left;
+
+}
+
+
+.infoCard h3{
+
+    margin-top:0;
+
+    color:#333;
+
+}
+
+
+.aiCard{
+
+    background:#fff5f8;
+
+}
+
+
+.infoCard p{
+
+    line-height:1.7;
+
+}
